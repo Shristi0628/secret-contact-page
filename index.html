@@ -1,0 +1,19 @@
+<!-- views/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enter Password</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome</h1>
+        <p>Enter password to view my contact details:</p>
+        <form action="/check-password" method="POST">
+            <input type="password" name="password" placeholder="Enter password" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

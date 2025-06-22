@@ -1,0 +1,47 @@
+/* public/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1e1e2f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #2e2e42;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+input[type="password"] {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 60%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    background: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+a {
+    color: #4dd0e1;
+}
