@@ -18,10 +18,12 @@ A fun and secure contact page built with Node.js & Express, where you can access
 
 Navigate to the folder:cd secret-contact-page
 
-Install dependencies:npm install
+Install dependencies : npm install
 
-Start the server:node server.js
-Open http://localhost:3000 in your browser.
+Start the server : node server.js
+
+
+Open http : //localhost:3000 in your browser.
 
 🔐 Default Password
 shristi@123
